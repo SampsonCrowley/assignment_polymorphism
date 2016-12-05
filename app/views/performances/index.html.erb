@@ -1,1 +1,5 @@
-<h1>Hello!</h1>
+<h1>All Performances</h1>
+<% @performances.each do |performance| %>
+  <h3><%= performance.performer.name %></h3>
+  <%= performance.performer_type %>, <%= performance.location %>, <%= performance.time %><br><br>
+<% end %>
