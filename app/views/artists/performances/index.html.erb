@@ -1,0 +1,4 @@
+<h1>Hello!</h1>
+<% @artists.each do |artist| %>
+  <%= artist.name %>: <%= render partial: 'shared/performances', locals: {performer: artist} %><br><br>
+<% end %>

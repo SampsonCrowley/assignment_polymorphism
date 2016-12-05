@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class PerformersControllerTest < ActionDispatch::IntegrationTest
+class Artists::PerformancesControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end

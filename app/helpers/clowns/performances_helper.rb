@@ -1,0 +1,2 @@
+module Clowns::PerformancesHelper
+end

@@ -1,0 +1,2 @@
+module Bands::PerformancesHelper
+end

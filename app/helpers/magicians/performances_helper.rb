@@ -1,0 +1,2 @@
+module Magicians::PerformancesHelper
+end
