@@ -1,1 +1,4 @@
-<h1>Hello!</h1>
+<h1>Clown performances</h1>
+<% @clowns.each do |clown| %>
+  <%= clown.name %>: <%= render partial: 'shared/performances', locals: {performer: clown} %><br><br>
+<% end %>

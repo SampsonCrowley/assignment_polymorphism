@@ -1,1 +1,4 @@
-<h1>Hello!</h1>
+<h1>Magician performances</h1>
+<% @magicians.each do |magician| %>
+  <%= magician.name %>: <%= render partial: 'shared/performances', locals: {performer: magician} %><br><br>
+<% end %>
